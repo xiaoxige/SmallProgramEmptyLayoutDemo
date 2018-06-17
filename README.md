@@ -20,23 +20,24 @@ git地址：https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo
 ## 2.使用
   在要使用的界面的json文件中引入空布局
   
-···javascript
+```javascript
   "usingComponents": {
     "empty-layout": "../../empty/empty"
   }
-
+```
   在要使用的界面的js文件中引入空布局的js文件
   
-···javascript
+```javascript
   var Empty = require("../../empty/constant/EmptyConstant.js");
-
+```
   在要使用的界面中那一块要使用空布局直接使用空布局提供的标签即可
   
-···javascript
+```javascript
   <empty-layout bindemptyevent="emptyCallback" emptyType="{{emptyType}}" loadingTransparent="{{false}}">
   	<--自己的布局!-->
     <view>
 	</view>
   </empty-layout>
+```
 
   
