@@ -51,9 +51,9 @@ git地址：https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo
   在自己代码中js逻辑中去根据自己的逻辑去设置emptyType的值即可，eg: 要展示加载中的布局
 	
 ```javascript
-    this.setData({
-      emptyType: Empty.loading
-    });
+  this.setData({
+    emptyType: Empty.loading
+  });
 ```
 
 
