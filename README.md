@@ -7,7 +7,7 @@ git地址：https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo
   详情及用法可查看Demo
 # 注意
   空布局中的各个界面状态的图片、界面或者图片，用户可以根据自己的去empty中去改
-  有什么问题可直接联系我QQ:74575921
+  有什么问题可直接联系我QQ:745759231
   
 # 效果
 ## 1.加载中
