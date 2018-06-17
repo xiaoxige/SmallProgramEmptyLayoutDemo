@@ -6,4 +6,4 @@
   
 #效果
 1.加载中
-	（https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo/blob/master/Screenshots/loading.png）
+	![加载中]（https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo/blob/master/Screenshots/loading.png）
