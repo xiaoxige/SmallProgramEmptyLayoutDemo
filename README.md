@@ -23,12 +23,10 @@ git地址：https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo
   "usingComponents": {
     "empty-layout": "../../empty/empty"
   }
-···
 
   在要使用的界面的js文件中引入空布局的js文件
 ···
   var Empty = require("../../empty/constant/EmptyConstant.js");
-···
 
   在要使用的界面中那一块要使用空布局直接使用空布局提供的标签即可
 ···
@@ -37,5 +35,5 @@ git地址：https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo
     <view>
 	</view>
   </empty-layout>
-···
+
   
