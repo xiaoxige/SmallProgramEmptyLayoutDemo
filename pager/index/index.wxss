@@ -1,0 +1,35 @@
+.index-root-layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.index-layout {
+  width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+.index-centent-layout {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.index-btn-layout {
+  width: 100%;
+  height: auto;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.index-btn-layout button {
+  font-size: 20rpx;
+}

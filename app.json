@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pager/index/index",
+    "pager/second/second"
+  ],
+  "window": {
+    "navigationBarTitleText": "空布局 Demo"
+  },
+  "debug": true
+}

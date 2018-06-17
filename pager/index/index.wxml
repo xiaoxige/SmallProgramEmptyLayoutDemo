@@ -1,0 +1,44 @@
+<view class='index-root-layout'>
+
+
+
+  <view class='index-layout'>
+
+    <!-- 
+      包含需要空布局的布局
+      参数说明：
+        1.emptyCallback： 空布局点击事件回调（重新加载）
+        2.emptyType：展示布局的类型
+        3.是否在加载中透明（即展示空布局的时候是否显示后面的布局）
+      主意：
+        1.可以在任何地方使用空布局
+        2.空布局会铺满父布局 （如果是整个界面使用空布局， 只需要把<empty-layout> 作为根据本即可）
+    -->
+    <empty-layout bindemptyevent="emptyCallback" emptyType="{{emptyType}}" loadingTransparent="{{loadingTransparent}}">
+
+      <!-- 自己项目的布局 -->
+      <view class='index-centent-layout'>
+
+        <button bindtap='btnNextOnClick'>Next</button>
+
+      </view>
+
+    </empty-layout>
+
+  </view>
+
+  <view class='index-btn-layout'>
+
+    <button bindtap='btnLoadingOnClick'>加载中</button>
+
+    <button bindtap='btnErrorOnClick'>加载错误</button>
+
+    <button bindtap='btnEmptyOnClick'>数据为空</button>
+
+    <button bindtap='btnCententOnclick'>内容</button>
+
+    <button bindtap='btnChangeloadingTransparentOnClick'>加载透明控制</button>
+
+  </view>
+
+</view>

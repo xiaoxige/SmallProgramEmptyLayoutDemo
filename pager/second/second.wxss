@@ -1,0 +1,10 @@
+/* pager/second/second.wxss */
+
+.second-root-layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,24 @@
+<import src="../empty/template/EmptyTemplate.wxml" />
+
+<view class='empty-root-layout'>
+
+  <!-- 错误 -->
+  <template is="empty-template" data="{{...errorLayoutData}}" wx:if="{{emptyType == error}}" />
+
+  <!-- 空布局 -->
+  <template is="empty-template" data="{{...emptyLayoutData}}" wx:if="{{emptyType == empty}}" />
+
+  <!-- 正在加载 -->
+  <template is="empty-template" data="{{...loadingLayoutData}}" wx:if="{{emptyType == loading}}" />
+
+  <!-- 显示主布局 -->
+  <block wx:if="{{emptyType == loading || emptyType == content}}">
+
+    <view class='empty-content-layout' wx:if="{{loadingTransparent || emptyType == content}}">
+      <slot></slot>
+    </view>
+
+  </block>
+
+
+</view>

@@ -1,0 +1,11 @@
+<!--pager/second/second.wxml-->
+<empty-layout bindemptyevent="emptyCallback" emptyType="{{emptyType}}" loadingTransparent="{{false}}">
+
+
+  <view class='second-root-layout'>
+
+    <text>自己的内容</text>
+
+  </view>
+
+</empty-layout>
