@@ -44,11 +44,11 @@ git地址：https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo
 ```
 ## 3.展示不同的界面
 ### 3.1. 布局中三个值的意义
-      bindemptyevent="emptyCallback"中emptyCallback为空布局中点击重新加载的回调（emptyType: 表示是哪个布局的重新加载。 Empty.error: 点击了错误布局中的重新加载、 Empty.empty: 点击了数据为空布局中的重新加载）
-	  emptyType="{{emptyType}}"中emptyType指定展示哪个布局（Empty.content: 展示自己的布局、Empty.empty: 展示数据为空的布局、 Empty.error: 展示错误的布局、 Empty.loading: 展示加载中的布局）
-	  loadingTransparent="{{false}}"中的值是指定在加载中是是否显示后面自己的布局
+    bindemptyevent="emptyCallback"中emptyCallback为空布局中点击重新加载的回调（emptyType: 表示是哪个布局的重新加载。 Empty.error: 点击了错误布局中的重新加载、 Empty.empty: 点击了数据为空布局中的重新加载）
+	emptyType="{{emptyType}}"中emptyType指定展示哪个布局（Empty.content: 展示自己的布局、Empty.empty: 展示数据为空的布局、 Empty.error: 展示错误的布局、 Empty.loading: 展示加载中的布局）
+	loadingTransparent="{{false}}"中的值是指定在加载中是是否显示后面自己的布局
 ### 3.2.改变布局
-      在自己代码中js逻辑中去根据自己的逻辑去设置emptyType的值即可，eg: 要展示加载中的布局
+    在自己代码中js逻辑中去根据自己的逻辑去设置emptyType的值即可，eg: 要展示加载中的布局
 	
 ```javascript
     this.setData({
