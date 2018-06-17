@@ -48,7 +48,7 @@ git地址：https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo
 	emptyType="{{emptyType}}"中emptyType指定展示哪个布局（Empty.content: 展示自己的布局、Empty.empty: 展示数据为空的布局、 Empty.error: 展示错误的布局、 Empty.loading: 展示加载中的布局）
 	loadingTransparent="{{false}}"中的值是指定在加载中是是否显示后面自己的布局
 ### 3.2.改变布局
-    在自己代码中js逻辑中去根据自己的逻辑去设置emptyType的值即可，eg: 要展示加载中的布局
+  在自己代码中js逻辑中去根据自己的逻辑去设置emptyType的值即可，eg: 要展示加载中的布局
 	
 ```javascript
     this.setData({
