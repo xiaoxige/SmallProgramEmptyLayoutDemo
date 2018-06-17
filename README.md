@@ -7,3 +7,7 @@
 # 效果
 ## 1.加载中
   ![image](https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo/raw/master/Screenshots/loading.png)
+## 2.加载失败
+  ![image](https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo/raw/master/Screenshots/error.png)
+## 2.加载数据为空
+  ![image](https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo/raw/master/Screenshots/empty.png)
