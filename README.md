@@ -14,7 +14,7 @@ git地址：https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo
   ![image](https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo/raw/master/Screenshots/loading.png)
 ## 2.加载失败
   ![image](https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo/raw/master/Screenshots/error.png)
-## 2.加载数据为空
+## 3.加载数据为空
   ![image](https://github.com/xiaoxige/SmallProgramEmptyLayoutDemo/raw/master/Screenshots/empty.png)
   
 # 使用方法
